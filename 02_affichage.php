@@ -19,6 +19,7 @@ echo "</br>";
 
 $leo = new Personnage("Loe");
 $leo->crier();
+echo "</br>";
 $leo->regenerer();
 // On applique la méthode regenerer aà notre personnage et, par conséquent, sa vie repasse à 100
 var_dump($leo);
